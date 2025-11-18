@@ -20,7 +20,6 @@ struct Image {
         return Vec3(0, 0, 0);
     }
 
-    // Calculate luminance L(x) for adaptive sampling
     double getLuminance(int x, int y) const {
         Vec3 color = getPixel(x, y);
         return 0.2126 * color.x + 0.7152 * color.y + 0.0722 * color.z;
@@ -34,7 +33,6 @@ struct Image {
             for (int x = 0; x < width; x++) {
                 Vec3 color = getPixel(x, y);
 
-                // Gamma correction
                 color.x = std::pow(std::clamp(color.x, 0.0, 1.0), 1.0 / 2.2);
                 color.y = std::pow(std::clamp(color.y, 0.0, 1.0), 1.0 / 2.2);
                 color.z = std::pow(std::clamp(color.z, 0.0, 1.0), 1.0 / 2.2);

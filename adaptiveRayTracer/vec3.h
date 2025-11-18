@@ -25,8 +25,7 @@ struct Vec3 {
         return Vec3(0, 0, 0);
     }
 
-    // Component-wise multiplication
     Vec3 mult(const Vec3& v) const { return Vec3(x * v.x, y * v.y, z * v.z); }
 };
 
-#endif // VEC3_H
+#endif 

@@ -1,0 +1,11 @@
+﻿  main_adaptive.cpp
+D:\researchProject\adaptiveRayTracer\adaptive_sampler.h(58,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_adaptive.cpp')
+  
+D:\researchProject\adaptiveRayTracer\main_adaptive.cpp(114,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  3 of 535 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  adaptiveRayTracer.vcxproj -> D:\researchProject\adaptiveRayTracer\x64\Release\adaptiveRayTracer.exe
